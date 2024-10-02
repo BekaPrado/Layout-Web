@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul, ol ,li{
+    list-style: none;
+}
+
+body{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 80px;
+    background-image: url('passeio-de-balao-praia-grande-1.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+.rounded-square {
+    width: 100px;            /* largura do quadrado */
+    height: 100px;           /* altura do quadrado */
+    background-color: #3498db; /* cor de fundo */
+    border-radius: 15px;    /* bordas arredondadas */
+    margin: 50px;           /* espaçamento entre os quadrados */
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    background-image: url('stanley-logo-9CF02872EA-seeklogo.com.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+}
+.menu ul{
+    display: flex;
+    gap: 32px;
+    font-size: 15px;
+    color: rgb(250, 250, 250);
+    margin-left: 40%;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+}
+.conteudo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteudo h1{
+    font-size: 100px;
+    color: rgb(250, 250, 250);
+    margin-top: 36%;
+    
+}
+.conteudo p{
+    width: 80%;
+    font-size: 21px;
+    color: rgb(250, 250, 250);
+
+}
+.acao button{
+    height: 80px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    border-color: rgb(169, 68, 84);
+}
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+}
+
+
+.social{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.social div{
+    height: 96px;
+    width: 96px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Garante que a imagem não se repita */;   
+}
+
+
+.img3{
+    background-image: url('whatsapp-logo-icon-free-png.webp');
+}
+.destaque{
+    width: 50%;
+    background-image: url('stanley-logo-NSB.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+
+}
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
