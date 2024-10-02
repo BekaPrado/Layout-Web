@@ -22,13 +22,21 @@ body{
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    filter: grayscale; 
+}
 
+.marca h2{
+    font-size: 15px;
+    text-align: left;
+    color: aliceblue;
+    margin-top: 56%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header{
     height: 200px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 
 }
 body {
@@ -43,23 +51,17 @@ body {
     height: 100px;           /* altura do quadrado */
     background-color: #3498db; /* cor de fundo */
     border-radius: 15px;    /* bordas arredondadas */
-    margin: 50px;           /* espaçamento entre os quadrados */
+    margin: 10px;           /* espaçamento entre os quadrados */
 }
 
-.logo{
-    height: 150px;
-    width: 150px;
-    background-image: url('stanley-logo-9CF02872EA-seeklogo.com.png');
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 100%;
-}
 .menu ul{
     display: flex;
     gap: 32px;
     font-size: 15px;
     color: rgb(250, 250, 250);
-    margin-left: 40%;
+    margin-left: 70%;
+    margin-top: 12%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 main{
     flex-grow: 1;
@@ -75,66 +77,23 @@ main{
     font-size: 100px;
     color: rgb(250, 250, 250);
     margin-top: 36%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 .conteudo p{
     width: 80%;
-    font-size: 21px;
+    font-size: 20px;
     color: rgb(250, 250, 250);
-
-}
-.acao button{
-    height: 80px;
-    width: 300px;
-    background-color: black;
-    color: white;
-    font-size: 32px;
-    border-color: rgb(169, 68, 84);
-}
-.button {
-    display: inline-block;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none; /* Remove o sublinhado do link */
-    font-size: 16px; /* Ajusta o tamanho da fonte */
-    cursor: pointer;
-    transition: background-color 0.3s; /* Transição suave para a cor de fundo */
-}
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-block-end: 40%
 
 
-.social{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-}
-.social div{
+/*social div{
     height: 96px;
     width: 96px;
     background-color: lightgrey;
     border-radius: 50%;
     background-size: cover; /* Faz a imagem cobrir toda a área */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Garante que a imagem não se repita */;   
-}
-
-
-.img3{
-    background-image: url('whatsapp-logo-icon-free-png.webp');
-}
-.destaque{
-    width: 50%;
-    background-image: url('stanley-logo-NSB.png');
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 100%;
-
-}
-footer{
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  /*  background-position: center; /* Centraliza a imagem */
+ /*   background-repeat: no-repeat; /* Garante que a imagem não se repita */;   
+/*
