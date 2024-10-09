@@ -17,7 +17,7 @@ header{
     justify-content: space-between;
 }.container h2{
     font-size: 15px;
-    text-align: left;
+    text-align: center;
     color: aliceblue;
     margin-top: 32%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -42,7 +42,7 @@ body{
     gap: 32px;
     font-size: 15px;
     color: rgb(250, 250, 250);
-    margin-left: 210%;
+    margin-left: 200%;
     margin-top: -27%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -55,24 +55,40 @@ body{
 }
 
 .conteudo h1{
-    font-size: 100px;
+    font-size: 126px;
     color: rgb(250, 250, 250);
-    margin-top: 36%;
+    margin-top: 44%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: -86%; 
+    margin-left: -90%; 
 }
 .testeimg {
-    position: absolute; /* Permite posicionar a imagem com coordenadas */
-    right: 900px;           /* Coloca no canto direito */
-    top: 50%;           /* Coloca no meio vertical */
-    transform: translateY(-50%); /* Centraliza verticalmente */
-    width: 300px;       /* Largura do retângulo */
-    height: 450px;      /* Altura do retângulo */
-    border-radius: 40px; /* Borda arredondada */
-    overflow: hidden; /* Sombras para dar destaque */
+    position: absolute;
+    right: 800px; /* Movendo a imagem mais para a direita */
+    top: 59%; /* Movendo a imagem um pouco mais para cima */
+    transform: translateY(-40%); /* Ajusta o alinhamento vertical */
+    width: 310px;
+    height: 450px;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-left: 50px; /* Ajusta o espaçamento lateral */
 }
-
+.testeimg2 {
+    position: absolute;
+    right: 400px; /* Posição diferente para a segunda imagem */
+    top: 60%; /* Posição vertical diferente */
+    transform: translateY(-60%);
+    width: 310px;
+    height: 450px;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-left: 50px;
+}
 .testeimg img {
+    width: 100%;        /* Garante que a imagem ocupe todo o contêiner */
+    height: 100%;       /* Garante que a imagem ocupe todo o contêiner */
+    object-fit: cover;  /* Cobre o espaço mantendo a proporção */
+}
+.testeimg2 img {
     width: 100%;        /* Garante que a imagem ocupe todo o contêiner */
     height: 100%;       /* Garante que a imagem ocupe todo o contêiner */
     object-fit: cover;  /* Cobre o espaço mantendo a proporção */
@@ -83,7 +99,7 @@ body{
     color: rgb(250, 250, 250);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-block-end: 40%;
-    margin-left: -508px;
+    margin-left: -531px;
 }
 .h1{
     color: pink;
