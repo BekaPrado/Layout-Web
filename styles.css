@@ -8,100 +8,139 @@ a {
     text-decoration: none;
     color: inherit;
 }
-ul, ol ,li{
+
+ul, ol, li {
     list-style: none;
 }
-header{
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-}.container h2{
-    font-size: 15px;
-    text-align: center;
-    color: aliceblue;
-    margin-top: 32%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: 100px;
-}
 
-body{
+body {
     height: 80vh;
     display: flex;
     flex-direction: column;
     padding-inline: 90px;
-    background-image: url('passeio\ certo.jpeg');
+    background-image: url('passeio certo.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed; 
 }
 
+header {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
 
-.menu ul{
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: aliceblue;
+}
+
+.container h2 {
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -48px;
+}
+
+.header-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-top: -50px;
+}
+
+.buscar {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+
+.menu ul {
     display: flex;
     gap: 32px;
     font-size: 15px;
     color: rgb(250, 250, 250);
-    margin-left: 200%;
-    margin-top: -27%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1100px;
+    margin-top: -120px;
 }
 
-.conteudo{
+.conteudo {
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.conteudo h1{
+.conteudo h1 {
     font-size: 126px;
     color: rgb(250, 250, 250);
-    margin-top: 44%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-left: -90%; 
+    margin-top: 300px;
 }
+
 .testeimg {
     position: absolute;
-    right: 800px; /* Movendo a imagem mais para a direita */
-    top: 59%; /* Movendo a imagem um pouco mais para cima */
-    transform: translateY(-40%); /* Ajusta o alinhamento vertical */
+    right: 800px;
+    top: 59%;
+    transform: translateY(-40%);
     width: 310px;
     height: 450px;
     border-radius: 40px;
     overflow: hidden;
-    margin-left: 50px; /* Ajusta o espaçamento lateral */
 }
-.testeimg2 {
-    position: absolute;
-    right: 400px; /* Posição diferente para a segunda imagem */
-    top: 60%; /* Posição vertical diferente */
-    transform: translateY(-60%);
-    width: 310px;
-    height: 450px;
-    border-radius: 40px;
-    overflow: hidden;
-    margin-left: 50px;
-}
+
 .testeimg img {
-    width: 100%;        /* Garante que a imagem ocupe todo o contêiner */
-    height: 100%;       /* Garante que a imagem ocupe todo o contêiner */
-    object-fit: cover;  /* Cobre o espaço mantendo a proporção */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-.testeimg2 img {
-    width: 100%;        /* Garante que a imagem ocupe todo o contêiner */
-    height: 100%;       /* Garante que a imagem ocupe todo o contêiner */
-    object-fit: cover;  /* Cobre o espaço mantendo a proporção */
+.montanha{
+    position: absolute;
+    right: 460px;
+    top: 59%;
+    transform: translateY(-40%);
+    width: 310px;
+    height: 450px;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-left: -500px;
 }
-.conteudo p{
+.montanha img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.california{
+    position: absolute;
+    right: 460px;
+    top: 59%;
+    transform: translateY(-40%);
+    width: 310px;
+    height: 450px;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-left: -500px;
+}
+
+
+.conteudo p {
     width: 80%;
     font-size: 20px;
     color: rgb(250, 250, 250);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin-block-end: 40%;
-    margin-left: -531px;
-}
-.h1{
-    color: pink;
 }
 
+.h1 {
+    color: pink;
+    margin-left: 1660px;
+    margin-top: 10px;
+}
